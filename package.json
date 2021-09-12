@@ -2,21 +2,36 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
     "web": "expo start --web",
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "~42.0.1",
+    "@expo/vector-icons": "^12.0.5",
+    "@react-native-async-storage/async-storage": "^1.13.0",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/native-stack": "^6.1.0",
+    "expo": "~41.0.1",
+    "expo-linear-gradient": "~9.1.0",
+    "expo-speech": "~9.2.0",
+    "expo-splash-screen": "~0.10.2",
     "expo-status-bar": "~1.0.4",
+    "expo-updates": "~0.5.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native": "~0.63.4",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-reanimated": "~2.1.0",
+    "react-native-screens": "^3.7.0",
+    "react-native-unimodules": "~0.13.3",
+    "react-native-uuid": "^2.0.1",
+    "react-native-web": "^0.17.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
   },
-  "private": true
+  "private": true,
+  "name": "fala-comigo",
+  "version": "1.0.0"
 }
